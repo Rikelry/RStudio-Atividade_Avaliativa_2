@@ -1,34 +1,30 @@
 # Atividade de Estatística Descritiva no R Studio
 
 ## Objetivo
-Praticar conceitos básicos de estatística descritiva, construindo e analisando uma base de dados, incluindo tabelas de frequência, gráficos, medidas de tendência central e de dispersão.
+Praticar conceitos básicos de estatística descritiva, construindo e analisando uma base de dados no R, incluindo tabelas de frequência, gráficos, medidas de tendência central e de dispersão.
 
 ---
 
-## Instruções
+## Instruções da atividade
 
-### 1. Preparação no R Studio
-- **Criar um dataset** contendo:
-  - Uma variável **quantitativa** (ex.: idades, alturas, salários, notas).
-  - Uma variável **qualitativa** (ex.: gênero, curso, cidade, cor favorita).
+### 1. No R Studio:
+- **i) Criar um dataframe contendo:**
+  - Uma variável quantitativa (ex.: idades, alturas, salários, notas).
+  - Uma variável qualitativa (ex.: gênero, curso, cidade, cor favorita).
 
-### 2. Tabelas de Frequência
-- Para a variável **quantitativa**, construir uma tabela de distribuição de frequência com:
+- **ii) Construir uma tabela de distribuição de frequência da variável quantitativa e outra para a qualitativa, contendo:**
   - Frequência Absoluta (`fi`).
   - Frequência Relativa (`fr`).
-  - Frequência Acumulada (`fa`).
-- Para a variável **qualitativa**, construir uma tabela de contingência.
+  - Frequência Acumulada (`Fac`).
 
-### 3. Gráficos
-- **Histograma** para a variável quantitativa.
-- **Gráfico à escolha** (barras, pizza, etc.) para a variável qualitativa.
+- **iii) Construir:**
+  - Um histograma da variável quantitativa.
+  - Outro gráfico à escolha para a variável qualitativa.
 
-### 4. Cálculos Estatísticos (variável quantitativa)
-- Medidas de tendência central:
+- **iv)Cálculos para a variável quantitativa:**
   - Média.
   - Mediana.
   - Moda.
-- Medidas de dispersão:
   - Amplitude.
   - Variância.
   - Desvio padrão.
@@ -37,16 +33,9 @@ Praticar conceitos básicos de estatística descritiva, construindo e analisando
 ---
 
 ## Entrega
-1. Salvar o script com extensão `.R`.
-2. Enviar o arquivo para: `aniano.vicira@ifjd.edu.br`.
-3. **Prazo**: 18/08/2025.
+2. Salvar o script com extensão `.R`.
+3. Enviar o arquivo para: `ariane.vieira@ifpi.edu.br`.
+4. Prazo: 18/08/2025.
+5. Observação: Alunos que não atingirem a nota mínima farão exame final no dia 20/08/2025.
 
 ---
-
-## Observação
-- Alunos que não atingirem a nota mínima farão exame final no dia **20/08/2025**.
-
----
-media <- mean(dados$idade)
-mediana <- median(dados$idade)
-desvio_pad <- sd(dados$idade)
